@@ -93,7 +93,7 @@ namespace SerialPortTest
                 try
                 {
                     //设置串口号  
-                    string serialName = cbSerial.Text;
+                    string serialName = cbSerial.SelectedItem.ToString();
                     sp1.PortName = serialName;
 
                     //设置各“串口设置”  
